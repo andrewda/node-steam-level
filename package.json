@@ -1,0 +1,25 @@
+{
+  "name": "steam-level",
+  "version": "0.0.1",
+  "description": "A super lightweight library which can calculate XP based on Steam levels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewda/node-steam-level.git"
+  },
+  "keywords": [
+    "steam",
+    "level",
+    "levels",
+    "xp"
+  ],
+  "author": "Andrew Dassonville <dassonville.andrew@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewda/node-steam-level/issues"
+  },
+  "homepage": "https://github.com/andrewda/node-steam-level#readme"
+}
