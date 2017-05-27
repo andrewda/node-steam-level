@@ -5,6 +5,12 @@ required XP to level up and can calculate the total amount of XP given a level.
 
 [Reference table](http://steamcommunity.com/sharedfiles/filedetails/?id=722062281)
 
+## Installation
+
+```bash
+$ npm install steam-level
+```
+
 ## Usage
 
 ```js
