@@ -4,13 +4,11 @@ class SteamLevel {
 
         if (level <= 10) {
             return 100;
-        } else if (level <= 100) {
+        } else if (level < 100) {
             const firstDigit = parseInt(level.toString().split('')[length - 2]);
             const lastDigit = parseInt(level.toString().split('')[length - 1]);
 
-            if (level === 100) {
-                return 1000;
-            } else if (lastDigit === 0) {
+            if (lastDigit === 0) {
                 return (firstDigit + '0').split('')
                             .reduce((a, b) => parseInt(a) + parseInt(b), 0) * 100;
             } else {
